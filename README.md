@@ -4,7 +4,7 @@
 
 **Dex-only Morphe patches for Samsung Health on Knox-tripped Samsung phones (warranty bit 0x1). Patch on-device with Morphe Manager: no PC, no root, no custom keystore.**
 
-[![Release](https://img.shields.io/github/v/release/bigyank/morphe-patches-samsung?style=for-the-badge&logo=github)](https://github.com/bigyank/morphe-patches-samsung/releases/latest)
+[![Release](https://img.shields.io/github/v/release/whythishome/morphe-patches?style=for-the-badge&logo=github)](https://github.com/whythishome/morphe-patches/releases/latest)
 [![Morphe](https://img.shields.io/badge/Morphe-Patches-8B5CF6?style=for-the-badge)](https://morphe.software)
 
 </div>
@@ -15,7 +15,7 @@
 
 <div align="center">
 
-### [Add Samsung Health Patches to Morphe Manager](https://morphe.software/add-source?github=bigyank/morphe-patches-samsung)
+### [Add Samsung Health Patches to Morphe Manager](https://morphe.software/add-source?github=whythishome/morphe-patches)
 
 </div>
 
@@ -43,7 +43,7 @@ https://github.com/bigyank/morphe-patches-samsung
 ## Patches
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.4.0](https://github.com/bigyank/morphe-patches-samsung/releases/tag/v1.4.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
+> **[v1.4.0](https://github.com/whythishome/morphe-patches/releases/tag/v1.4.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;3 patches total
 <details open>
 <summary>📦 Samsung Health&nbsp;&nbsp;•&nbsp;&nbsp;3 patches</summary>
 <br>
@@ -130,12 +130,12 @@ Sync-adapter XML may still reference `com.osp.app.signin`; runtime provider call
 1. Force-stop Morphe Manager.
 2. Set process runtime to **1280 MB** ([Quick start](#quick-start)).
 3. Close other apps before patching.
-4. Use the [latest release](https://github.com/bigyank/morphe-patches-samsung/releases/latest). Builds before v1.0.11 decoded resources and could OOM-loop on device.
+4. Use the [latest release](https://github.com/whythishome/morphe-patches/releases/latest). Builds before v1.0.11 decoded resources and could OOM-loop on device.
 
 ### Login still fails
 
 - Both patches must be enabled.
-- Logcat: search `AccountManagerProvider` / `SignatureInfoDbHelper`. Those lines mean the account patch did not apply; update to the [latest release](https://github.com/bigyank/morphe-patches-samsung/releases/latest).
+- Logcat: search `AccountManagerProvider` / `SignatureInfoDbHelper`. Those lines mean the account patch did not apply; update to the [latest release](https://github.com/whythishome/morphe-patches/releases/latest).
 - Uninstall stock Health before installing the patched APK.
 
 ---
