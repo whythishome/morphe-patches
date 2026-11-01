@@ -24,7 +24,7 @@ Open on the phone that runs Morphe Manager. The link adds this patch source auto
 **Manual add:** Morphe Manager → patch sources **+** → **Remote** → paste:
 
 ```
-https://github.com/bigyank/morphe-patches-samsung
+https://github.com/whythishome/morphe-patches
 ```
 
 > [!NOTE]
