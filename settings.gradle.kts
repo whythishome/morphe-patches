@@ -1,4 +1,4 @@
-rootProject.name = "morphe-patches-samsung"
+rootProject.name = "shealth-health-sharing-patches"
 
 pluginManagement {
     repositories {
