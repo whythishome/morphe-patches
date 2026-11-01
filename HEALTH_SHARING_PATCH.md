@@ -44,3 +44,16 @@ The `.mpp` bundle is written under `patches/build/libs/`.
 
 Uninstall the Play Store/Galaxy Store build first if Android reports a
 signature mismatch. Keep a backup of Samsung Health data before testing.
+
+## Publishing from GitHub
+
+Morphe reads the generated `patches-list.json` and the released `.mpp` bundle;
+it does not compile Kotlin source files on the phone. Push the repository to
+your GitHub account on the `main` branch and let the included **Release**
+workflow run. It builds the bundle, updates the patch list, and publishes a
+GitHub release. Add the repository's patch-source URL again in Morphe Manager
+after that release is available, then refresh the source.
+
+If the workflow is not triggered automatically, open **Actions → Release → Run
+workflow** once. The new patch should then appear as a fourth patch and remain
+disabled until selected.
