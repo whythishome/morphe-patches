@@ -1,13 +1,13 @@
-group = "app.bigyank"
+group = "app.whythishome"
 
 patches {
     about {
-        name = "Bigyank Samsung Patches"
-        description = "Morphe patches for Samsung Health on Knox-tripped Galaxy devices"
-        source = "git@github.com:bigyank/morphe-patches-samsung.git"
-        author = "bigyank"
-        contact = "https://github.com/bigyank/morphe-patches-samsung/issues"
-        website = "https://github.com/bigyank/morphe-patches-samsung"
+        name = "Samsung Health Patches"
+        description = "Morphe patches for Samsung Health, including Health Data Sharing visibility on non-Samsung devices"
+        source = "https://github.com/whythishome/morphe-patches.git"
+        author = "whythishome"
+        contact = "https://github.com/whythishome/morphe-patches/issues"
+        website = "https://github.com/whythishome/morphe-patches"
         license = "GPLv3"
     }
 }

@@ -57,3 +57,8 @@ after that release is available, then refresh the source.
 If the workflow is not triggered automatically, open **Actions → Release → Run
 workflow** once. The new patch should then appear as a fourth patch and remain
 disabled until selected.
+
+The release workflow uses semantic-release. A commit such as
+`feat(shealth): add Health Data Sharing visibility patch` is required to create
+a new release; ordinary commits may build successfully without publishing a
+new `.mpp` bundle.
